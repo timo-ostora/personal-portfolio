@@ -50,11 +50,11 @@ export default function Header() {
 
       <Corner backgound='--background'className="bg-muted"  position="top-right">
         <div className="flex items-center gap-4">
-          <nav className=" hidden md:flex items-center justify-center gap-6 text-base py-2 font-medium tracking-tight text-foreground transition-all duration-75">
-              <Link className="hover:text-muted" href="/">Home</Link>
-              <Link className="hover:text-muted" href="/about">About</Link>
-              <Link className="hover:text-muted" href="/work">Works</Link>
-              <Link className="hover:text-muted" href="/contact">Contact</Link>
+          <nav className="mr-8 hidden md:flex items-center justify-center gap-6 text-base py-2 font-medium tracking-tight text-foreground transition-all duration-75">
+              <Link className="hover:text-primary/40" href="/">Home</Link>
+              <Link className="hover:text-primary/40" href="/about">About</Link>
+              <Link className="hover:text-primary/40" href="/work">Works</Link>
+              <Link className="hover:text-primary/40" href="/contact">Contact</Link>
           </nav>
           <ModeToggle />
           <div
