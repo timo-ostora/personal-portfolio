@@ -1,6 +1,7 @@
 import { cn } from "@/lib/utils";
 import { ArrowDownRight } from "lucide-react";
 import Link from "next/link";
+import { buttonVariants } from "../ui/button";
 
 export default function Hero(){
   return (
