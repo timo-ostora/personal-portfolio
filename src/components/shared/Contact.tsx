@@ -19,8 +19,18 @@ export default function Contact() {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" className="min-w-50">
-              Get in Touch
+            <Button 
+              size="lg" 
+              className="min-w-50"
+              asChild
+            >
+              <a 
+                href="https://wa.me/212679186173?text=Hi%2C%20I%27d%20like%20to%20discuss%20a%20project%20with%20you"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Get in Touch
+              </a>
             </Button>
             <div className="flex items-center gap-3">
               {SocialMediaProfiles.map((social, i) => (

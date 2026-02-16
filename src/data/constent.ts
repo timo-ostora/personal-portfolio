@@ -137,7 +137,7 @@ export const personalInfo = {
 export const SocialMediaProfiles: SocialLink[] = [
   {
     title: "Instagram",
-    href: "https://www.instagram.com/siimo-azizi",
+    href: "https://www.instagram.com/siimo_azizi_/",
     icon: BsInstagram,
   },
   {
