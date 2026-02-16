@@ -7,7 +7,7 @@ import { X, MenuIcon } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Button } from "../ui/button";
+import { Button, buttonVariants } from "../ui/button";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -65,7 +65,14 @@ export default function Header() {
               {menuOpen ? <X /> : <MenuIcon />}
             </span>
           </div>
-          <Button className="hidden md:inline-block" >Resume</Button>
+                <Link 
+                href="/files/resume.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cn('hidden md:flex',buttonVariants({ size:'lg'}))}
+              >
+                View Resume
+              </Link>
         </div>
       </Corner>
 

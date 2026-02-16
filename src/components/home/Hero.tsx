@@ -19,9 +19,14 @@ export default function Hero(){
             <div className="flex justify-between items-bottom ">
               <div className="flex gap-4">
                 <Link href="/work" className={cn(buttonVariants({variant:'default', size:'lg'}),'group animate-in fade-in slide-in-from-bottom-6 duration-700')}>Explore Recent Projects <ArrowDownRight className=" duration-75  group-hover:-rotate-45" size={'24px'} /> </Link>
-                <Link href="/files/resume" className={cn(buttonVariants({variant:'secondary',  size:'lg'}))} >
-                  view Resume
-                </Link>
+                <Link 
+                href="/files/resume.pdf" 
+                target="_blank"
+                rel="noopener noreferrer"
+                className={cn(buttonVariants({variant:'secondary', size:'lg'}))}
+              >
+                View Resume
+              </Link>
               </div>
               <div className="text-right text-gray-500 italic px-4 py-2 border-b border-gray-300 ">Scroll Down</div>
             </div>
