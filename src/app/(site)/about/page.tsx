@@ -20,16 +20,12 @@ export default function About() {
                 Hi, I&apos;m {personalInfo.name.split(' ')[0]}
               </h1>
               <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-                A full-stack developer from {personalInfo.location.split(',')[0]} who loves turning complex problems 
-                into elegant, user-friendly solutions.
+                Full-Stack Web Developer based in Rabat.
               </p>
             </div>
             
             <p className="text-base text-muted-foreground leading-relaxed max-w-2xl">
-              I&apos;ve spent the last {stats.yearsOfExperience} years building web applications—from government portals 
-              serving thousands of citizens to e-commerce platforms helping businesses grow. What excites me most 
-              isn&apos;t just writing code, but understanding the people who&apos;ll use it and crafting experiences that 
-              genuinely make their lives easier.
+              I build structured web applications with a strong focus on clarity, maintainability, and real-world usability. My work combines backend architecture and thoughtful interface design to create systems that are not only functional, but reliable and intuitive.
             </p>
           </div>
 
@@ -59,31 +55,15 @@ export default function About() {
           
           <div className="space-y-6 text-muted-foreground leading-relaxed">
             <p>
-              I started my journey in web development with a simple curiosity: 
-              <span className="text-foreground font-medium"> how do websites work? </span>
-              That curiosity turned into passion as I discovered the power of code to solve real problems 
-              and create meaningful digital experiences.
-            </p>
-            
-            <p>
-              What began as building simple websites evolved into architecting complex full-stack applications. 
-              I&apos;ve had the privilege of working on 
-              <span className="text-foreground font-medium"> government portals that serve thousands of citizens, </span>
-              e-commerce platforms that help businesses grow, and digital tools that make people&apos;s lives easier.
-            </p>
+              Over the past two years, I have developed full-stack projects as part of my academic training and professional internships. At the Chamber of Representatives in Rabat, I contributed to the development of a parliamentary credit management platform. I participated in user needs analysis, data modeling using Merise methodology, and interface implementation with a strong focus on security and clarity.
 
-            <p>
-              Each project taught me something invaluable: 
-              <span className="text-foreground font-medium"> great code isn&apos;t just about functionality—it&apos;s about empathy. </span>
-              Understanding users, solving their pain points, and delivering solutions that feel intuitive 
-              and delightful to use. That&apos;s what drives me every day.
-            </p>
+              During my internship at NADDEVLOP, I worked on website development while also engaging in commercial validation and digital prospecting. This dual exposure strengthened my understanding of how technical solutions connect to business realities.
 
-            <p>
-              Today, I combine technical expertise with design thinking to build digital products that don&apos;t 
-              just work well—they feel right. Whether it&apos;s optimizing performance, crafting pixel-perfect 
-              interfaces, or architecting scalable backends, 
-              <span className="text-foreground font-medium"> I&apos;m obsessed with the details that make exceptional experiences.</span>
+              My final-year project focused on designing and developing a car rental management platform using PHP (MVC architecture), MySQL, and Bootstrap. The system includes booking workflows, fleet availability management, and an administrative dashboard for operational control. This project reinforced my approach: clean architecture, structured logic, and role-based system thinking.
+
+              Beyond development, I am deeply interested in visual design and music culture. Designing posters and studying composition influences how I structure interfaces — I pay attention to rhythm, balance, and visual hierarchy. For me, development and design are not separate disciplines, but parts of the same system.
+
+              I am currently completing my Specialized Technician Diploma in Computer Development at IFIAG (expected 2025). I am open to opportunities where I can contribute to structured digital products, collaborate in serious technical environments, and continue growing as a full-stack developer.
             </p>
           </div>
         </div>
@@ -96,7 +76,7 @@ export default function About() {
             <div className="text-4xl md:text-5xl font-bold text-primary">
               {stats.yearsOfExperience}+
             </div>
-            <div className="text-sm text-muted-foreground">Years Experience</div>
+            <div className="text-sm text-muted-foreground">Years of Practical Development</div>
           </div>
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-bold text-primary">
@@ -108,7 +88,7 @@ export default function About() {
             <div className="text-4xl md:text-5xl font-bold text-primary">
               {stats.happyClients}+
             </div>
-            <div className="text-sm text-muted-foreground">Happy Clients</div>
+            <div className="text-sm text-muted-foreground">Core Features Implemented in Production Projects</div>
           </div>
           <div className="text-center space-y-2">
             <div className="text-4xl md:text-5xl font-bold text-primary">
