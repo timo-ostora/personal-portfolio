@@ -313,7 +313,7 @@ export const projects: Project[] = [
   startDate: new Date('2025-07-01'),
   endDate: new Date('2025-07-10'),
   gallery: [
-    { src: '/images/projects/payoutpal.jpg', alt: 'PayoutPal hero section', isMain: true },
+    { src: 'public\images\projects\PayoutPal.jpg', alt: 'PayoutPal hero section', isMain: true },
   ],
   services: [ 
     { 
