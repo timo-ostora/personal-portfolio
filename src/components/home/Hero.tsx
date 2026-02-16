@@ -28,7 +28,6 @@ export default function Hero(){
                 View Resume
               </Link>
               </div>
-              <div className="text-right text-gray-500 italic px-4 py-2 border-b border-gray-300 ">Scroll Down</div>
             </div>
           </div>
         </div>
