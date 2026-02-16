@@ -19,13 +19,12 @@ export default function About(){
         <div className="flex flex-col gap-6">
           <div className="flex flex-col gap-4 text-base md:text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm a full-stack developer from Rabat, Morocco, who builds complete web products from concept to production. I combine technical precision with design thinking to create applications that are both visually cohesive and technically solid.
-            </p>
+              I’m a full-stack developer based in Rabat, building structured web products from idea to production. My work sits at the intersection of system thinking and visual clarity. I don’t approach projects as pages to design or features to ship, but as operational systems that need to work, scale, and make sense for real users.            </p>
             <p>
               My work spans frontend and backend development using React, Next.js, and Laravel, while maintaining strong design fundamentals. I develop clean architectures, REST APIs, and authentication systems, then ensure pixel-accurate implementation with proper spacing systems and UI consistency.
             </p>
             <p>
-              I don't separate design from development—I treat them as one unified workflow. This approach allows me to build products that are reliable, maintainable, and genuinely usable.
+              I don&apos;t separate design from development—I treat them as one unified workflow. This approach allows me to build products that are reliable, maintainable, and genuinely usable.
             </p>
           </div>
 

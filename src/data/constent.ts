@@ -236,110 +236,107 @@ export const education: Education[] = [
 // Projects
 // ----------------------------------------------------------------------------
 
+
 export const projects: Project[] = [
   { 
-    title: "Car rental platform v2", 
+    title: "Car Rental Management Platform", 
     slug: "car-rental",
-    description: "A comprehensive citizen-facing web platform enabling residents to access municipal services, submit requests, and track application statuses in real-time. Built with modern web technologies to improve government transparency and accessibility.", 
-    startDate: new Date('2026-01-01'),
-    endDate: new Date('206-03-20'),
+    description: "A multi-role web platform designed to digitalize and automate car rental operations. The system enables clients to browse vehicles, book online, and track reservations, while administrators and agents manage availability, payments, vehicle check-in/out reports, and operational workflows through a structured dashboard.", 
+    startDate: new Date('2025-01-01'),
+    endDate: new Date('2025-03-20'),
     gallery: [
-      { src: '/images/projects/car-rental/landing.jpg', alt: 'car rental homepage', isMain: true },
-      { src: '/images/projects/car-rental/browse.jpg', alt: 'User dashboard interface' },
-      { src: '/images/projects/car-rental/checkin.jpg', alt: 'Mobile responsive view' }
+      { src: '/images/projects/car-rental/landing.jpg', alt: 'Car rental landing page', isMain: true },
+      { src: '/images/projects/car-rental/browse.jpg', alt: 'Vehicle browsing interface' },
+      { src: '/images/projects/car-rental/checkin.jpg', alt: 'Vehicle check-in and reporting system' }
     ],
     services: [ 
       { 
-        title: 'Full-stack Development', 
-        description: 'Architected and developed a scalable full-stack solution using React, Next.js, and Node.js with PostgreSQL database integration',
+        title: 'System Architecture & Full-Stack Development', 
+        description: 'Designed and developed a role-based rental management system using structured MVC architecture, focusing on scalability, maintainability, and operational clarity.',
         tools: [
-          { title: 'React & Next.js', description: 'Built responsive UI components with server-side rendering' },
-          { title: 'TypeScript', description: 'Ensured type safety across the entire application' },
-          { title: 'Node.js & PostgreSQL', description: 'Developed RESTful APIs and database schemas' }
+          { title: 'PHP (MVC Architecture)', description: 'Implemented clean separation of concerns with controllers, models, and views' },
+          { title: 'MySQL', description: 'Designed relational database schemas for vehicles, bookings, users, and reports' },
+          { title: 'Bootstrap', description: 'Built responsive admin and client dashboards' }
         ]
-      }, 
-      { 
-        title: 'UI/UX Design', 
-        description: 'Designed accessible, user-friendly interfaces following WCAG guidelines for government accessibility standards',
+      },
+      {
+        title: 'Business Logic & Workflow Automation',
+        description: 'Engineered booking lifecycle management including availability validation, payment tracking, vehicle status updates, and damage reporting during check-in/out processes.',
         tools: [
-          { title: 'Figma', description: 'Created wireframes and high-fidelity prototypes' },
-          { title: 'Tailwind CSS', description: 'Implemented responsive design system' }
+          { title: 'Role-Based Access Control', description: 'Defined permission layers for clients, agents, employees, and admins' },
+          { title: 'Booking Engine Logic', description: 'Handled availability checks, date conflicts, and status transitions' }
         ]
       }
     ]
   },
+
   { 
-    title: "E-Commerce Dashboard", 
+    title: "E-Commerce Operations Dashboard", 
     slug: 'e-commerce-dashboard',
-    description: "An intuitive admin dashboard for managing inventory, orders, and customer analytics for small to medium-sized businesses. Features real-time data visualization and streamlined product management workflows.", 
-    startDate: new Date('2025-01-10'),
-    endDate: new Date('2025-06-20'),
+    description: "An internal operations dashboard built to centralize inventory management, order tracking, and customer data analytics for small and medium businesses. The system improves decision-making through structured data visualization and workflow optimization.", 
+    startDate: new Date('2024-10-10'),
+    endDate: new Date('2025-01-20'),
     gallery: [
-      { src: '/images/projects/e-commerce-dashbord.webp', alt: 'Dashboard overview with analytics', isMain: true },
-      { src: '/images/projects/ecommerce-products.jpg', alt: 'Product management interface' },
-      { src: '/images/projects/ecommerce-orders.jpg', alt: 'Order tracking system' }
+      { src: '/images/projects/e-commerce-dashbord.webp', alt: 'Analytics dashboard overview', isMain: true },
     ],
     services: [ 
       { 
-        title: 'Frontend Development', 
-        description: 'Created a modern, performant SPA with complex state management and interactive data visualizations',
+        title: 'Frontend Architecture', 
+        description: 'Developed a modular and maintainable frontend interface with structured state management and dynamic data visualization.',
         tools: [
-          { title: 'React & TypeScript', description: 'Built modular component architecture' },
-          { title: 'Chart.js', description: 'Implemented interactive analytics dashboards' },
-          { title: 'Redux Toolkit', description: 'Managed complex application state' }
+          { title: 'React & TypeScript', description: 'Built reusable component-driven architecture with type safety' },
+          { title: 'Chart.js', description: 'Implemented real-time sales and performance visualizations' }
         ]
       }, 
       { 
-        title: 'Backend APIs', 
-        description: 'Developed robust RESTful APIs with authentication, data validation, and payment gateway integration',
+        title: 'API & Data Layer Integration', 
+        description: 'Built and integrated RESTful APIs to handle authentication, order processing, product management, and analytics aggregation.',
         tools: [
-          { title: 'Express.js', description: 'Built scalable API endpoints' },
-          { title: 'MongoDB', description: 'Designed flexible NoSQL data schemas' },
-          { title: 'Stripe API', description: 'Integrated payment processing' }
+          { title: 'Express.js', description: 'Designed secure and scalable API endpoints' },
+          { title: 'MongoDB', description: 'Structured flexible product and order data models' }
         ]
       },
       {
-        title: 'Brand Identity',
-        description: 'Designed cohesive brand identity including logo, color palette, and visual guidelines for consistent user experience',
+        title: 'Visual & Brand System',
+        description: 'Designed interface structure and visual consistency to ensure clarity, usability, and brand alignment.',
         tools: [
-          { title: 'Adobe Illustrator', description: 'Created vector-based logo and brand assets' },
-          { title: 'Figma', description: 'Developed comprehensive design system' }
+          { title: 'Figma', description: 'Prototyped layouts and defined UI patterns' }
         ]
       }
     ]
   },
+
   { 
-    title: "Personal Portfolio & Blog", 
-    slug: 'personal-portfolio-blog',
-    description: "A modern, performant portfolio website showcasing projects and technical writings. Features server-side rendering, optimized images, and a custom CMS for blog management.", 
-    startDate: new Date('2024-08-01'),
-    endDate: new Date('2024-10-15'),
-    gallery: [
-      { src: '/images/projects/portfolio.webp', alt: 'Portfolio homepage', isMain: true },
-      { src: '/images/projects/portfolio-projects.jpg', alt: 'Projects showcase page' },
-      { src: '/images/projects/portfolio-blog.jpg', alt: 'Blog listing page' }
-    ],
-    services: [ 
-      { 
-        title: 'Full-stack Solutions', 
-        description: 'Built a complete JAMstack application with headless CMS integration and optimized performance',
-        tools: [
-          { title: 'Next.js 14', description: 'Leveraged app router and server components' },
-          { title: 'Sanity CMS', description: 'Implemented headless content management' },
-          { title: 'Vercel', description: 'Deployed with edge functions and CDN' }
-        ]
-      },
-      {
-        title: 'UI/UX Design',
-        description: 'Crafted a clean, minimal design with smooth animations and excellent mobile experience',
-        tools: [
-          { title: 'Framer Motion', description: 'Added smooth page transitions and micro-interactions' },
-          { title: 'Tailwind CSS', description: 'Built custom design system with dark mode' }
-        ]
-      }
-    ]
-  }
+  title: "PayoutPal – Fintech Landing Page", 
+  slug: "payoutpal",
+  description: "A high-conversion SaaS landing page designed and developed for a fictional fintech product focused on simplifying business payouts. The goal was to create a clear product narrative, strong visual hierarchy, and trust-driven messaging tailored for startup and B2B audiences.", 
+  startDate: new Date('2025-07-01'),
+  endDate: new Date('2025-07-10'),
+  gallery: [
+    { src: '/images/projects/payoutpal.jpg', alt: 'PayoutPal hero section', isMain: true },
+  ],
+  services: [ 
+    { 
+      title: 'Landing Page Strategy & Structure', 
+      description: 'Defined conversion-focused layout including value proposition clarity, feature segmentation, social proof positioning, and structured call-to-action flow.',
+      tools: [
+        { title: 'Product Messaging', description: 'Crafted clear, benefit-driven copy aligned with fintech positioning' },
+        { title: 'Conversion Structure', description: 'Applied SaaS landing page best practices (hero, problem, solution, CTA flow)' }
+      ]
+    },
+    { 
+      title: 'Design & Frontend Development', 
+      description: 'Designed and built a responsive, performance-optimized interface with consistent spacing systems and modern UI components.',
+      tools: [
+        { title: 'Next.js & React', description: 'Built optimized and component-driven frontend structure' },
+        { title: 'Tailwind CSS', description: 'Implemented clean design system with scalable utility styling' }
+      ]
+    }
+  ]
+},
+
 ];
+
 
 // ----------------------------------------------------------------------------
 // Testimonials
@@ -400,7 +397,7 @@ export const servicesOffered = [
 
 export const stats = {
   yearsOfExperience: 2,
-  projectsCompleted: 15,
+  projectsCompleted: 11,
   happyClients: 10,
   linesOfCode: 50000,
 };
