@@ -65,14 +65,17 @@ export default function Header() {
               {menuOpen ? <X /> : <MenuIcon />}
             </span>
           </div>
+          <div className="hidden md:flex">
+
                 <Link 
                 href="/files/resume.pdf" 
                 target="_blank"
                 rel="noopener noreferrer"
-                className={cn('hidden md:flex',buttonVariants({ size:'lg'}))}
-              >
+                className={cn(buttonVariants({ size:'lg'}))}
+                >
                 View Resume
               </Link>
+          </div>
         </div>
       </Corner>
 
