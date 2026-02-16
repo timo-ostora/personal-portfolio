@@ -4,7 +4,7 @@ import { Figtree } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { useState, useEffect, Suspense } from "react"; 
 import Preloader from "@/components/Preloader";
-
+import { Analytics } from "@vercel/analytics/next"
 
 const figtree = Figtree({ 
   subsets: ['latin'], weight: ['400', '500', '600', '700'],
@@ -24,6 +24,7 @@ export default function Layout({
   return (
     <html lang="en">
       <body className={cn("bg-muted relative", figtree.className)}>
+        <Analytics />
         {loading ? <Preloader /> : children}
         {/* <Suspense fallback={<Preloader />}>
           {children} 
