@@ -52,7 +52,7 @@ export default function Work() {
       </div> 
 
       {/* Filter Section */}
-      <div className="mb-6 bg-background/95 backdrop-blur-sm z-10 py-4 -mx-4 px-4 rounded-lg border-b animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
+      {/* <div className="mb-6 bg-background/95 backdrop-blur-sm z-10 py-4 -mx-4 px-4 rounded-lg border-b animate-in fade-in slide-in-from-bottom-4 duration-700 delay-100">
         <div className="flex items-center justify-between mb-4">
           <div className="flex items-center gap-3">
             <span className="text-sm font-medium text-muted-foreground">
@@ -74,7 +74,6 @@ export default function Work() {
         </div>
         
         <div className="flex flex-wrap gap-2">
-          {/* All Projects Button */}
           <Button 
             onClick={() => handleFilterChange('All')}
             variant={selectedService === 'All' ? 'default' : 'outline'}
@@ -87,7 +86,6 @@ export default function Work() {
             </span>
           </Button>
           
-          {/* Service Filter Buttons */}
           {servicesOffered.map((service, i) => (
             <Button 
               key={i} 
@@ -104,7 +102,7 @@ export default function Work() {
             </Button>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Projects Grid */}
       <div 
