@@ -21,7 +21,7 @@ export default function Contact() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Button 
               size="lg" 
-              className="min-w-50"
+              className="min-w-50 hidden md:flex"
               asChild
             >
               <a 
