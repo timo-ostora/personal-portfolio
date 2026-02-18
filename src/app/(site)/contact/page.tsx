@@ -14,7 +14,7 @@ export default function Contact() {
         </p>
       </div>
       <div className="grid md:grid-cols-2 gap-6">
-        <ContactForm />
+        {/* <ContactForm /> */}
         
         <div className="flex flex-col gap-6 p-6 rounded-2xl">
           <div className="grid gap-4">
@@ -24,7 +24,7 @@ export default function Contact() {
                 <Mail className="h-5 w-5" /> <Link href="melto:mohamed09azizi@gmail.com">Mohamed09azizi@gmail.com</Link>
               </div>
               <div className="flex gap-2">
-                <BsWhatsapp className="h-5 w-5" /> <Link href="melto:mohamed09azizi@gmail.com">(+212) 679-186-173</Link>
+                <BsWhatsapp className="h-5 w-5" /> <Link href="https://wa.me/212679186173">(+212) 679-186-173</Link>
               </div>
             </div>
           </div>
